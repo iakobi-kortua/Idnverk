@@ -1,0 +1,72 @@
+/* Global */
+
+h1 h2 h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Home Page */
+.home-wrapper{
+    background-color: rgb(215, 212, 212);
+}
+.home-img{
+    width: 100%;
+}
+.home-left-div{
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ho:hover{
+    background-color: rgb(54, 104, 222);
+    color: white;
+}
+
+.home-left-div h2{
+    color: rgb(37, 90, 214);
+    margin-bottom: 38px;
+}
+
+/* Our Services Page */
+
+.service-left-div h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.service-left-div p{
+    width: 320px;
+    margin-top: 30px;
+}
+.arrow{
+    color: rgb(37, 90, 214);
+    font-size: 50px;
+}
+
+/* About Page*/
+
+.carousel-div h3{
+    color: rgb(37, 90, 214);
+}
+.carousel-div p{
+    color: whitesmoke;
+}
+
+/* Contact Page */
+
+.contact-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-div p{
+    width: 240px;
+    color: whitesmoke;
+}
+.contact-div h3{
+    color: rgb(37, 90, 214);
+}
